@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MockInterview Pro specific
+vector_db/
+chroma.sqlite3
+interview_memory.db
+*.swp
+Thumbs.db

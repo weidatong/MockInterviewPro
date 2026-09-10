@@ -2,4 +2,11 @@
 name = "mockinterviewpro"
 version = "0.1.0"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "aioconsole>=0.8.2",
+    "aiosqlite>=0.22.1",
+    "langgraph-checkpoint-postgres>=3.1.0",
+    "langgraph-checkpoint-sqlite>=3.1.0",
+    "psycopg[binary]>=3.3.4",
+    "tavily-python>=0.7.26",
+]
